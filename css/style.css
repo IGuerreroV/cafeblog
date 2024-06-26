@@ -183,3 +183,26 @@ img {
     padding-bottom: 3rem;
     margin-top: 4rem;
 }
+
+/* Sobre Nosotros */
+@media (min-width: 768px) {
+
+    /* Flexbox */
+    /* .sobre-nosotros {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sobre-nosotros__texto {
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .sobre-nosotros__imagen {
+        flex: 0 0 calc(50% - 1rem);
+    } */
+
+    /* Grid */
+    .sobre-nosotros {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
